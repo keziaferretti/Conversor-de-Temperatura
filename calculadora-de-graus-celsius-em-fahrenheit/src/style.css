@@ -1,0 +1,74 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: url("https://img.freepik.com/vetores-gratis/ilustracao-plana-de-homens-em-clima-quente-e-frio_74855-18438.jpg?w=1060&t=st=1663115364~exp=1663115964~hmac=53b36e8850be5ba9549c6a1fc087d05c98db5d9689fdba9f315392074a06ba78");
+  background-color: #989A91;
+  background-size: cover;
+
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color:#ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color:#ffffff;
+  margin-top: 5px;
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+
+#input-celsius {
+  height: 30px;
+  width: 90px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background: inherit;
+  color: inherit;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+button:hover{
+  font-size: 15px;
+  cursor: pointer; 
+}
+
+.resultado {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 16px;
+}
+
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
